@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "rosources-django-rest"
+version = "0.1.0"
+description = ""
+authors = ["onezer00 <caimbebr@gmail.com>"]
+readme = "README.md"
+packages = [{include = "rosources_django_rest"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.1.7"
+djangorestframework = "^3.14.0"
+pyyaml = "^6.0"
+uritemplate = "^4.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
